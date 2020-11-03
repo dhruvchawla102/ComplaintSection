@@ -8,7 +8,6 @@ import FlipMove from 'react-flip-move';
 import SendIcon from '@material-ui/icons/Send';
 import { IconButton } from '@material-ui/core';
 
-
 function App() {
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState([]);

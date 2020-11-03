@@ -2,20 +2,22 @@
   text-align: center;
   height: 100vh;
   width: 100vw;
-  background:url('https://media.giphy.com/media/9J8K8WEWLXZk7s0OMB/giphy.gif') no-repeat center center fixed;
+  background:url('https://www.webdesignerdepot.com/cdn-origin/uploads/2013/07/2222.gif') no-repeat center center fixed;
+  /* background:url('https://media.giphy.com/media/9J8K8WEWLXZk7s0OMB/giphy.gif') no-repeat center center fixed; */
   background-size: cover;
 }
+
 
 .app__form {
   padding: 20px;
   position: fixed;
   bottom: 0;
   z-index: 1;
-  background-color: #e9e9eb;
+  /* background-color: #e9e9eb; */
   width: 94.5%;
   margin: 20px;
   border-radius: 10px;
-  /* background-color: #e9e9eb; */
+  background-color: #e3e7e9;
 }
 
 .app__formControl {
@@ -32,4 +34,20 @@
 .app__iconButton {
   /* background-color: #e9e9eb; */
   flex: 0;
+}
+
+h1,h2,h4 {
+  color: #e3e7e9;
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  font-weight: 900;
+}
+
+h2{
+  font-weight: 150;
+}
+h4{
+  font-weight:50;
 }
